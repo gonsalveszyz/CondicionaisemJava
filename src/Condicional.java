@@ -23,3 +23,26 @@ public class Condicional {
 
    }
 }
+class SwitchCase {
+    public static void main(String[] args) {
+        int dia = 3;
+        String diasSemana;
+
+        switch (dia) {
+            case 1:
+                diasSemana = "domingo";
+                break;
+            case 2:
+                diasSemana = "segunda-feira";
+                break;
+            case 3:
+                diasSemana = "terca-feira";
+                break;
+            default:
+                diasSemana = "dia invalido";
+        }
+
+        System.out.println(diasSemana);
+    }
+}
+// Aprendi que meu switch case deu erro po falta de {} e tbm pq nao respeitei os metedos corretos dentro do Java
